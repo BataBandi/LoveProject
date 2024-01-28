@@ -1,0 +1,152 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+/*For the page*/
+body{
+    background-color: #a2d0eb;
+    font-family: Playfair Display;
+    color: #0f4d70;
+}
+/*Decorate the Nav*/
+.Nav-Line{
+    width: 100%;
+    display: inline-block;
+    margin-bottom: 50px;
+}
+/*Willkommen properties for the text and make proper position for the scrolling*/
+.Welcome{
+    margin: auto;
+    text-align: center;
+}
+#title{
+    font-size: 80px;
+    margin: 20px auto 0px auto;
+    opacity: 0;
+    visibility: hidden;
+}
+#WellIMG{
+    width: 500px;
+    height: 700px;
+    margin: 50px auto 100px auto;
+    border-radius: 3%;
+    border: 1px red solid;
+    visibility: hidden;
+    opacity: 0;
+}
+#Welcoming{
+    font-size: 60px;
+    margin: auto auto 50px auto;
+    visibility: hidden;
+    opacity: 0;
+}
+#Welcome-span{
+    visibility: hidden;
+    opacity: 0;
+}
+#hidden-text{
+    display: block;
+    visibility: hidden;
+    opacity: 0;
+}
+#love-text{
+    font-size: 40px;
+    visibility: hidden;
+    opacity: 0;
+    margin-top: 100px;
+}
+/*Properties for the love Images*/
+#WellIMG2{
+    display: inline-block;
+    width: 500px;
+    height: 700px;
+    border-radius: 3%;
+    border: 1px red solid;
+    margin-right: 10px;
+    margin-top: 10px;
+    visibility: hidden;
+    opacity: 0
+}
+#WellIMG3{
+    display: inline-block;
+    width: 500px;
+    height: 700px;
+    border-radius: 3%;
+    border: 1px red solid;
+    margin-left: 10px;
+    margin-top: 10px;
+    visibility: hidden;
+    opacity: 0
+}
+/*Properties for the Dates and the time etc.*/
+.Time-Counter{
+    text-align: center;
+    margin: auto;
+    margin-top: 50px;;
+    font-size: 70px;
+    width: 100%;
+    visibility: hidden;
+    opacity: 0;
+}
+.Date{
+    border:#0f4d70 solid 1px;
+    text-align: center;
+    border-radius: 5%;
+    width: 40%;
+    margin: auto;
+}
+.Watch{
+    border:#0f4d70 solid 1px;
+    border-radius: 5%;
+    width: 40%;
+    text-align: center;
+    margin: auto;
+
+}
+
+@media only screen and (max-width: 1740px) {
+    .Date{
+        width: 60%;
+        margin: auto;
+    }
+    .Watch{
+        width: 60%;
+        margin: auto;
+    }
+}
+/*Kiss Timer for the romantic people*/
+#Kisses{
+    opacity: 0;
+    visibility: hidden;
+}
+#Math{
+    opacity: 0;
+    visibility: hidden;
+}
+#Complex{
+    opacity: 0;
+    visibility: hidden;
+}
+.Kiss-Counter{
+    text-align: center;
+    margin: auto;
+    margin-top: 50px;
+    visibility: hidden;
+    opacity: 0;
+    margin-bottom: 0px;
+}
+h2{
+    font-size: 40px;
+}
+#Pusser{
+    font-size: 50px;
+    font-style: oblique;
+}
+/*Footer poperties*/
+footer{
+    margin-bottom: 0cm;
+    margin-top: 300px;
+    padding: 0%;
+    display: block;
+    width: 100%;
+}
